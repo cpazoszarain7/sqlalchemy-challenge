@@ -42,8 +42,8 @@ def index():
             f'/api/v1.0/precipitation<br/>'
             f'/api/v1.0/stations<br/>'
             f'/api/v1.0/tobs<br/>'
-            f'/api/v1.0/start Date Format YYYY-MM-DD<br/>'
-            f'/api/v1.0/start/end ate Format YYYY-MM-DD<br/>')
+            f'/api/v1.0/start       -> Date Format YYYY-MM-DD<br/>'
+            f'/api/v1.0/start/end   ->Date Format YYYY-MM-DD<br/>')
 
 @app.route('/api/v1.0/precipitation')
 def precip():
